@@ -46,6 +46,25 @@ p {
   font-weight: normal;
 }
 
+.about-hero-content {
+   padding: 80px 20px;  
+}
+
+.about-hero-image {
+  padding: 80px 30px;
+  max-width: 80%;
+}
+
+.about-hero h1 {
+  font-size: 60px;
+  line-height: 1.1;
+}
+
+.about-hero h2 {
+  font-size: 20px;
+  font-family: var(--defaullt-font-family);
+}
+
 .btn-branding {
   background-color: var(--branding-color);
   color: white;
@@ -87,5 +106,10 @@ p {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .about-hero {
+    text-align: center;
+    padding: 0;
   }
 }
