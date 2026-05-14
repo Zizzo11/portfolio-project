@@ -46,23 +46,42 @@ p {
   font-weight: normal;
 }
 
-.about-hero-content {
+.content-container {
    padding: 80px 20px;  
 }
 
-.about-hero-image {
-  padding: 80px 30px;
-  max-width: 80%;
-}
 
-.about-hero h1 {
-  font-size: 60px;
+.content h1 {
+  font-size: 50px;
   line-height: 1.1;
+  text-align: center;
 }
 
-.about-hero h2 {
+.content h2 {
   font-size: 20px;
   font-family: var(--defaullt-font-family);
+
+}
+
+.content h3 {
+  font-size: 24px;
+  font-family: var(--defaullt-font-family);
+  line-height: 1.5;
+  margin: 20px 0 0;
+}
+.content {
+  margin: 30px;
+}
+
+.content p {
+  font-size: 14px;
+
+}
+
+.content-image {
+  max-width: 80%;
+  height: auto;
+  border-radius: 8px;
 }
 
 .btn-branding {
